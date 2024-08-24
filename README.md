@@ -221,9 +221,11 @@ Copy code
     <button type="submit">Register</button>
 </form>
 {% endblock %}
+
 vote.html
 html
 Copy code
+
 {% extends 'base.html' %}
 {% block content %}
 <h2>Vote for a Candidate</h2>
@@ -238,9 +240,11 @@ Copy code
     {% endfor %}
 </ul>
 {% endblock %}
+
 results.html
 html
 Copy code
+
 {% extends 'base.html' %}
 {% block content %}
 <h2>Voting Results</h2>
